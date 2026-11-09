@@ -1,0 +1,25 @@
+# 資料集：用 download_dataset.py 下載
+screw_dataset/
+
+# 訓練輸出（重點圖表已複製到 docs/images/）
+runs/
+
+# 權重：只上傳 models/ 裡訓練好的模型
+*.pt
+!models/*.pt
+weights/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# 機密
+.env
+
+# 系統
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
